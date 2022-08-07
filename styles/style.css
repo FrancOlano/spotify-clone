@@ -1,8 +1,114 @@
 /*
 Colors:
-
+ 
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
+ 
 */
+html{
+    font-size: calc(8px + 0.390625vw);
+}
+p{
+    color: #b6b5b5;
+}
+body{
+    display: grid;
+    grid-template-rows: 4;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    grid-row-start: 1;
+    background-color: #FFF;
+    padding: 5px;
+}
+.logo-spotify{
+    width: 100px;
+}
+.ul-nav{
+    display: flex;
+    align-content: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+.li-nav{
+    float: left;
+    margin-right: 20px;
+}
+.a-nav{
+    text-decoration: none;
+    color: black;
+}
+.div-header{
+    background-image: url(../images/landing.jpg);
+    background-size:cover;
+    color: #FFF;
+    height: 50vh;
+    display: flex;
+    order:1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+main{
+    text-align: center;
+}
+.div-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+[alt="music"]{
+    width: 50px;
+}
+.div-sm-main{
+    width: 100px;
+}
+.title-sm-main{
+    color: #00B172;
+}
+.title-main{
+    text-decoration: underline solid #00B172 2px;
+    text-underline-offset: 5px;
+}
+.spotify-white{
+    width: 70px;
+}
+.spotify-app{
+    width: 150px;
+}
+footer{
+    background-color: #00B172 ;
+    color: #FFF;
+    padding: 40px;
+    margin: 20px;
+}
+.div-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.p-footer{
+    color: #FFF;
+}
+.div-sm-footer{
+    display: flex;
+    flex-direction: column;
+}
+.title-footer{
+    text-decoration: underline solid #FFF 1px;
+    text-underline-offset: 5px;
+}
+.div-xs-footer{
+    width: 150px;
+}
+.p-footer{
+    color: rgba(255, 255, 255, 0.842);
+}
